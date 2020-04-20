@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{777728b8-201f-4a56-90d5-7bbad883e6c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{b17fd5f4-26ef-45a1-ad97-6f9180984df5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util">
+      <UniqueIdentifier>{772b769d-aabf-4826-a6a3-3920a2000f02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util\crypto">
+      <UniqueIdentifier>{33051150-63a1-4fd2-a025-6fe4f92e4c1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util\crypto\libtomcrypt">
+      <UniqueIdentifier>{b52269b0-f310-4785-b0bd-aec936646792}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="small.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="gvoice_test.ico">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="gvoice_test.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gvoice_proxy.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gvoice_proxy_interface.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="util\util.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\time32.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\DataVerify.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\crypto\libtomcrypt\mycrypt.h">
+      <Filter>util\crypto\libtomcrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GCloudVoice.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GCloudVoiceErrno.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GCloudVoiceExtension.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GCloudVoiceVersion.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GVoice.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="gvoice_test.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gvoice_proxy.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="gvoice_test.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
